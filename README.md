@@ -1,4 +1,4 @@
-# hex-opacity-css
+# hex.5
 
 A tiny CSS helper that lets you write #000.5 and #fff.8 for both color + opacity level. 
 
@@ -12,7 +12,7 @@ color: #fff.8;            /* white at 80% opacity */
 Convert the hex + opacity level into a valid `rgba()` value, automatically in the browser.
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/calvinmorett/hex-opacity-css/hex-opacity.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/calvinmorett/hex.5/hex5.js"></script>
 
 <style>
   .demo{
@@ -25,7 +25,7 @@ Convert the hex + opacity level into a valid `rgba()` value, automatically in th
 turns into....
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/calvinmorett/hex-opacity-css/hex-opacity.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/calvinmorett/hex.5/hex5.js"></script>
 
 <style>
   .demo{

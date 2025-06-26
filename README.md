@@ -10,3 +10,27 @@ color: #fff.8;            /* white at 80% opacity */
 ```
 
 Convert the hex + opacity level into a valid `rgba()` value, automatically in the browser.
+
+```
+<script src="https://cdn.jsdelivr.net/gh/calvinmorett/hex-opacity-css/hex-opacity.js"></script>
+
+<style>
+  .demo{
+    background:#f00.3;
+    color:#00f.8;
+  }
+</style>
+```
+
+turns into....
+
+```
+<script src="https://cdn.jsdelivr.net/gh/calvinmorett/hex-opacity-css/hex-opacity.js"></script>
+
+<style>
+  .demo{
+    background:rgba(255,0,0,.3);
+    color:rgba(0,0,255,.8)
+  }
+</style>
+```

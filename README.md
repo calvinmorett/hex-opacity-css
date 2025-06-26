@@ -8,3 +8,4 @@ Example:
 background-color: #000.5; /* black at 50% opacity */
 color: #fff.8;            /* white at 80% opacity */
 
+Convert the hex + opacity level into a valid rgba() value, automatically in the browser.
